@@ -116,6 +116,16 @@ export default function Home() {
               <span className="font-semibold text-gray-900">SecureFile</span>
             </div>
             <p className="text-gray-600 text-sm">Open-source client-side file encryption • Privacy by design</p>
+            <p className="text-gray-500 text-xs mt-2">
+              <a 
+                href="https://anatole.co" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                Free & Open Source - Proposed by anatole.co
+              </a>
+            </p>
           </div>
         </div>
       </footer>
