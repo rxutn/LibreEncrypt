@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Shield, Lock, Globe, Infinity } from "lucide-react";
 import FileEncryption from "@/components/file-encryption";
+import logoPath from "@assets/⿻_1753220819196.png";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'encrypt' | 'decrypt'>('encrypt');
@@ -13,7 +14,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0 flex items-center">
-                <Shield className="text-primary text-2xl mr-3" />
+                <img src={logoPath} alt="SecureFile" className="w-8 h-8 mr-3" />
                 <h1 className="text-xl font-bold text-gray-900">SecureFile</h1>
               </div>
             </div>
@@ -32,7 +33,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="mb-6">
-            <Shield className="text-6xl text-primary mb-4 mx-auto h-24 w-24" />
+            <img src={logoPath} alt="SecureFile" className="w-24 h-24 mx-auto mb-4" />
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Secure File Encryption</h2>
           <p className="text-xl text-gray-600 mb-2">AES-256 encryption in your browser</p>
@@ -111,7 +112,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <div className="flex justify-center items-center mb-4">
-              <Shield className="text-primary text-lg mr-2 h-5 w-5" />
+              <img src={logoPath} alt="SecureFile" className="w-5 h-5 mr-2" />
               <span className="font-semibold text-gray-900">SecureFile</span>
             </div>
             <p className="text-gray-600 text-sm">Open-source client-side file encryption • Privacy by design</p>
