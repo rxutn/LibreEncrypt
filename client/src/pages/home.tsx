@@ -126,6 +126,16 @@ export default function Home() {
                 Free & Open Source - Proposed by anatole.co
               </a>
             </p>
+            <p className="text-gray-400 text-xs mt-1">
+              <a 
+                href="https://creativecommons.org/public-domain/cc0/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                CC0 - Public Domain / No Copyright Required
+              </a>
+            </p>
           </div>
         </div>
       </footer>
