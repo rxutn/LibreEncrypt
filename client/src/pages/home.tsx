@@ -99,7 +99,16 @@ export default function Home() {
                   <li>Files are never uploaded to any server</li>
                   <li>AES-256-GCM encryption with PBKDF2 key derivation</li>
                   <li>Your password is never stored or transmitted</li>
-                  <li>Source code is open and auditable</li>
+                  <li>
+                    <a 
+                      href="https://github.com/rxutn/SecureFile" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-blue-800 hover:text-blue-900 underline"
+                    >
+                      Source code is open and auditable
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
