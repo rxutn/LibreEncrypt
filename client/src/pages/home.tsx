@@ -142,7 +142,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 className="hover:text-primary transition-colors"
               >
-                CC0 - Public Domain / No Copyright Required
+                CC0 Public Domain - No Copyright Required
               </a>
             </p>
           </div>
