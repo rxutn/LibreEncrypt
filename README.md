@@ -2,11 +2,11 @@
 
 A secure, privacy-focused file encryption application that processes files entirely in your browser using AES-256 encryption. No uploads, no servers, no limits.
 
-![SecureFile Logo](attached_assets/encrypt_1753221068545.png)
+![logoLibreEncrypt](attached_assets/logoLibreEncrypt.png)
 
 ## Features
 
-- 🔒 **AES-256-GCM Encryption** - Military-grade encryption standard
+- 🔒 **AES-256-GCM Encryption** - Industry-grade encryption standard
 - 🌐 **100% Client-Side** - All processing happens in your browser
 - 🚫 **No Server Upload** - Files never leave your device
 - ♾️ **No Size Limits** - Encrypt files of any size
