@@ -126,13 +126,13 @@ export default function Home() {
             </div>
             <p className="text-gray-600 text-sm">Open source client-side file encryption • Privacy by design</p>
             <p className="text-gray-500 text-xs mt-2">
-              <a 
+              Free and Open Source - By <a 
                 href="https://anatole.co" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:text-primary transition-colors"
+                className="text-primary underline hover:text-blue-700 transition-colors"
               >
-                Free & Open Source - Proposed by anatole.co
+                anatole.co
               </a>
             </p>
             <p className="text-gray-400 text-xs mt-1">
