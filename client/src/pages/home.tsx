@@ -124,7 +124,7 @@ export default function Home() {
               <img src={logoPath} alt="SecureFile" className="w-5 h-5 mr-2" />
               <span className="font-semibold text-gray-900">SecureFile</span>
             </div>
-            <p className="text-gray-600 text-sm">Open-source client-side file encryption • Privacy by design</p>
+            <p className="text-gray-600 text-sm">Open source client-side file encryption • Privacy by design</p>
             <p className="text-gray-500 text-xs mt-2">
               <a 
                 href="https://anatole.co" 
