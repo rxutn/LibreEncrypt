@@ -41,18 +41,18 @@ export default function Home() {
         </div>
 
         {/* Security Badges */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
-          <div className="flex items-center bg-green-50 text-green-700 px-4 py-2 rounded-full border border-green-200">
-            <Lock className="mr-2 h-4 w-4" />
-            <span className="text-sm font-medium">Industry-grade encryption</span>
+        <div className="flex justify-center gap-2 sm:gap-4 mb-12 overflow-x-auto">
+          <div className="flex items-center bg-green-50 text-green-700 px-3 sm:px-4 py-2 rounded-full border border-green-200 whitespace-nowrap flex-shrink-0">
+            <Lock className="mr-1 sm:mr-2 h-4 w-4" />
+            <span className="text-xs sm:text-sm font-medium">Industry-grade encryption</span>
           </div>
-          <div className="flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full border border-blue-200">
-            <Globe className="mr-2 h-4 w-4" />
-            <span className="text-sm font-medium">Browser-Only Processing</span>
+          <div className="flex items-center bg-blue-50 text-blue-700 px-3 sm:px-4 py-2 rounded-full border border-blue-200 whitespace-nowrap flex-shrink-0">
+            <Globe className="mr-1 sm:mr-2 h-4 w-4" />
+            <span className="text-xs sm:text-sm font-medium">Browser-Only Processing</span>
           </div>
-          <div className="flex items-center bg-purple-50 text-purple-700 px-4 py-2 rounded-full border border-purple-200">
-            <Infinity className="mr-2 h-4 w-4" />
-            <span className="text-sm font-medium">No Size Limits</span>
+          <div className="flex items-center bg-purple-50 text-purple-700 px-3 sm:px-4 py-2 rounded-full border border-purple-200 whitespace-nowrap flex-shrink-0">
+            <Infinity className="mr-1 sm:mr-2 h-4 w-4" />
+            <span className="text-xs sm:text-sm font-medium">No Size Limits</span>
           </div>
         </div>
 
