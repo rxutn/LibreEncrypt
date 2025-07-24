@@ -101,13 +101,13 @@ export default function Home() {
                   <li>Your password is never stored or transmitted</li>
                   <li>
                     <a 
-                      href="https://github.com/rxutn/SecureFile" 
+                      href="https://code.libreencrypt.anatole.co" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-blue-800 hover:text-blue-900 underline"
                     >
-                      Source code is open and auditable
-                    </a>
+                      Source code
+                    </a> is open and auditable
                   </li>
                 </ul>
               </div>
