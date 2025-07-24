@@ -27,7 +27,6 @@ export default function Home() {
           </div>
         </div>
       </header>
-
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Hero Section */}
@@ -37,7 +36,7 @@ export default function Home() {
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Secure File Encryption</h2>
           <p className="text-xl text-gray-600 mb-2">AES-256 encryption in your browser</p>
-          <p className="text-sm text-gray-500">No uploads • No servers • No limits</p>
+          <p className="text-sm text-gray-500">Simple, fast, secure client-side file encryption</p>
         </div>
 
         {/* Security Badges */}
@@ -115,7 +114,6 @@ export default function Home() {
           </div>
         </div>
       </main>
-
       {/* Footer */}
       <footer className="bg-white border-t border-gray-200 mt-16">
         <div className="max-w-7xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
