@@ -44,7 +44,7 @@ export default function Home() {
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <div className="flex items-center bg-green-50 text-green-700 px-4 py-2 rounded-full border border-green-200">
             <Lock className="mr-2 h-4 w-4" />
-            <span className="text-sm font-medium">End-to-End Encrypted</span>
+            <span className="text-sm font-medium">Industry-grade encryption</span>
           </div>
           <div className="flex items-center bg-blue-50 text-blue-700 px-4 py-2 rounded-full border border-blue-200">
             <Globe className="mr-2 h-4 w-4" />
