@@ -28,7 +28,7 @@ export default function Home() {
         </div>
       </header>
       {/* Main Content */}
-      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 bg-[#111828] text-[#ffffff]">
+      <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-[#ffffff] bg-[#000000]">
         {/* Hero Section */}
         <div className="text-center mb-12">
           <div className="mb-6">
