@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Shield, Lock, Globe, Infinity } from "lucide-react";
 import FileEncryption from "@/components/file-encryption";
-import logoPath from "@assets/encrypt_1753221068545.png";
+import logoPath from "@assets/LibreEncrypt_1753389220762.png";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'encrypt' | 'decrypt'>('encrypt');
