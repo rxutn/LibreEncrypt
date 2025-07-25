@@ -1,4 +1,4 @@
-# SecureFile - Client-Side File Encryption
+# LibreEncrypt - Client-Side File Encryption
 
 A secure, privacy-focused file encryption application that processes files entirely in your browser using AES-256 encryption. No uploads, no servers, no limits.
 
