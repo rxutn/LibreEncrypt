@@ -100,7 +100,7 @@ export default function Home() {
                   <li>Your password is never stored or transmitted</li>
                   <li>
                     <a 
-                      href="https://code.libreencrypt.anatole.co" 
+                      href="https://github.com/rxutn/LibreEncrypt" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-blue-800 hover:text-blue-900 underline"
